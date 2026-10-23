@@ -62,7 +62,7 @@ else:
         digest='sha256:'+hashlib.sha256(path.read_bytes()).hexdigest()
         if asset.get('state')!='uploaded' or asset.get('digest')!=digest:raise SystemExit('Uploaded draft asset does not match the local candidate')
     if args.action=='publish':
-        run(['api','--method','PATCH',f'repos/{repo}/releases/'+str(release['id']),'-F','draft=false','-f','make_latest=true'])
+        run(['api','--method','PATCH',f'repos/{repo}/releases/'+str(release['id']),'-F','draft=false','-f','tag_name='+tag,'-f','make_latest=true'])
         print(f'Published https://github.com/{repo}/releases/tag/{tag}')
     else:
         print('Verified draft source commit and uploaded SHA-256 digests. Still unpublished.')
