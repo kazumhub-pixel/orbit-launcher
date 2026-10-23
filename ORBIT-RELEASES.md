@@ -38,6 +38,7 @@ With GitHub CLI authenticated on the publisher's machine:
 ```text
 python scripts/github-release.py --candidate <folder>
 python scripts/github-release.py --candidate <folder> --action draft
+python scripts/github-release.py --candidate <folder> --action verify-draft
 ```
 
 The first command only validates local files; the second creates a **draft**.

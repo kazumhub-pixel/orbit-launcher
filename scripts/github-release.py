@@ -11,7 +11,7 @@ import subprocess
 
 parser=argparse.ArgumentParser()
 parser.add_argument('--candidate',required=True,type=Path)
-parser.add_argument('--action',choices=['validate','draft','publish'],default='validate')
+parser.add_argument('--action',choices=['validate','draft','verify-draft','publish'],default='validate')
 args=parser.parse_args()
 folder=args.candidate.resolve()
 candidate=json.loads((folder/'release-candidate.json').read_text(encoding='utf-8'))
@@ -40,7 +40,10 @@ if args.action=='draft':
     info=json.loads(run(['api',f'repos/{repo}']))
     target=json.loads(run(['api',f'repos/{repo}/commits/'+info['default_branch']]))['sha']
 else:
-    release=json.loads(run(['api',f'repos/{repo}/releases/tags/{tag}']))
+    pages=json.loads(run(['api',f'repos/{repo}/releases?per_page=100','--paginate','--slurp']))
+    matches=[item for page in pages for item in page if item.get('tag_name')==tag and item.get('draft') is True]
+    if len(matches)!=1:raise SystemExit('Expected exactly one draft for this version')
+    release=json.loads(run(['api',f'repos/{repo}/releases/'+str(matches[0]['id'])]))
     target=release.get('target_commitish','')
     if not re.fullmatch(r'[a-f0-9]{40}',target):raise SystemExit('Draft must pin an exact source commit')
 remote=json.loads(run(['api',f'repos/{repo}/contents/release.json?ref={target}']))
@@ -52,12 +55,14 @@ if args.action=='draft':
          '--notes-file',str(folder/'RELEASE-NOTES.md')])
     print('Draft created. Clients will not install this draft.')
 else:
-    release=json.loads(run(['api',f'repos/{repo}/releases/tags/{tag}']))
     if release.get('draft') is not True or release.get('prerelease') is not False:raise SystemExit('Only the reviewed stable draft can be published')
     assets={asset['name']:asset for asset in release['assets']}
     for path in [installer,source_archive]:
         asset=assets.get(path.name,{})
         digest='sha256:'+hashlib.sha256(path.read_bytes()).hexdigest()
         if asset.get('state')!='uploaded' or asset.get('digest')!=digest:raise SystemExit('Uploaded draft asset does not match the local candidate')
-    run(['release','edit',tag,'--repo',repo,'--draft=false','--latest'])
-    print(f'Published https://github.com/{repo}/releases/tag/{tag}')
+    if args.action=='publish':
+        run(['api','--method','PATCH',f'repos/{repo}/releases/'+str(release['id']),'-F','draft=false','-f','make_latest=true'])
+        print(f'Published https://github.com/{repo}/releases/tag/{tag}')
+    else:
+        print('Verified draft source commit and uploaded SHA-256 digests. Still unpublished.')
