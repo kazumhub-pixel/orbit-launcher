@@ -1,0 +1,348 @@
+Start testing: Oct 22 01:22 Hora Padrão de Montevidéu
+----------------------------------------------------------
+2/23 Testing: GZip
+2/23 Test: GZip
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/GZip.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"GZip" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.74 sec
+----------------------------------------------------------
+Test Passed.
+"GZip" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"GZip" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/23 Testing: Task
+13/23 Test: Task
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/Task.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"Task" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.31 sec
+----------------------------------------------------------
+Test Passed.
+"Task" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"Task" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/23 Testing: AuroraTheme
+22/23 Test: AuroraTheme
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/AuroraTheme.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"AuroraTheme" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Passed.
+"AuroraTheme" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"AuroraTheme" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/23 Testing: XmlLogs
+21/23 Test: XmlLogs
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/XmlLogs.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"XmlLogs" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   1.26 sec
+----------------------------------------------------------
+Test Passed.
+"XmlLogs" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"XmlLogs" time elapsed: 00:00:01
+----------------------------------------------------------
+
+1/23 Testing: FileSystem
+1/23 Test: FileSystem
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/FileSystem.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"FileSystem" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"FileSystem" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"FileSystem" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/23 Testing: ResourceFolderModel
+6/23 Test: ResourceFolderModel
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/ResourceFolderModel.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"ResourceFolderModel" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"ResourceFolderModel" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"ResourceFolderModel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/23 Testing: DataPackParse
+9/23 Test: DataPackParse
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/DataPackParse.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"DataPackParse" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"DataPackParse" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"DataPackParse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/23 Testing: INIFile
+14/23 Test: INIFile
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/INIFile.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"INIFile" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"INIFile" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"INIFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/23 Testing: Library
+5/23 Test: Library
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/Library.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"Library" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.08 sec
+----------------------------------------------------------
+Test Passed.
+"Library" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"Library" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/23 Testing: MojangVersionFormat
+4/23 Test: MojangVersionFormat
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/MojangVersionFormat.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"MojangVersionFormat" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"MojangVersionFormat" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"MojangVersionFormat" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/23 Testing: CatPack
+20/23 Test: CatPack
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/CatPack.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"CatPack" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"CatPack" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"CatPack" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/23 Testing: ShaderPackParse
+10/23 Test: ShaderPackParse
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/ShaderPackParse.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"ShaderPackParse" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"ShaderPackParse" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"ShaderPackParse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/23 Testing: Index
+17/23 Test: Index
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/Index.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"Index" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"Index" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"Index" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/23 Testing: WorldSaveParse
+11/23 Test: WorldSaveParse
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/WorldSaveParse.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"WorldSaveParse" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"WorldSaveParse" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"WorldSaveParse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/23 Testing: Packwiz
+16/23 Test: Packwiz
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/Packwiz.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"Packwiz" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"Packwiz" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"Packwiz" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/23 Testing: ResourcePackParse
+7/23 Test: ResourcePackParse
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/ResourcePackParse.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"ResourcePackParse" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"ResourcePackParse" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"ResourcePackParse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/23 Testing: MetaComponentParse
+19/23 Test: MetaComponentParse
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/MetaComponentParse.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"MetaComponentParse" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"MetaComponentParse" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"MetaComponentParse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/23 Testing: OrbitShell
+23/23 Test: OrbitShell
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/OrbitShell.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"OrbitShell" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"OrbitShell" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"OrbitShell" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/23 Testing: Version
+18/23 Test: Version
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/Version.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"Version" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"Version" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"Version" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/23 Testing: TexturePackParse
+8/23 Test: TexturePackParse
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/TexturePackParse.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"TexturePackParse" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TexturePackParse" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"TexturePackParse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/23 Testing: JavaVersion
+15/23 Test: JavaVersion
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/JavaVersion.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"JavaVersion" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"JavaVersion" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"JavaVersion" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/23 Testing: GradleSpecifier
+3/23 Test: GradleSpecifier
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/GradleSpecifier.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"GradleSpecifier" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"GradleSpecifier" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"GradleSpecifier" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/23 Testing: ParseUtils
+12/23 Test: ParseUtils
+Command: "C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/ParseUtils.exe"
+Directory: C:/Users/Administrator/Documents/Codex/2026-10-21/oi/work/launcher/build/tests
+"ParseUtils" start time: Oct 22 01:22 Hora Padrão de Montevidéu
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ParseUtils" end time: Oct 22 01:22 Hora Padrão de Montevidéu
+"ParseUtils" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 22 01:22 Hora Padrão de Montevidéu

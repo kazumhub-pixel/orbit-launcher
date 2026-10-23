@@ -1,0 +1,46 @@
+{
+  "file_type": "MMC-TRANSLATION-INDEX",
+  "version": 2,
+  "languages": {
+    "pt_BR": {
+      "file": "",
+      "size": 383874,
+      "sha1": "492fb4352a79d73ef2fcc3d15e5dffa81901f14d",
+      "translated": 2548,
+      "untranslated": 0,
+      "fuzzy": 0
+    },
+    "ru": {
+      "file": "",
+      "size": 378744,
+      "sha1": "effa8ed6bb1a5149a81d0696b22e95335c8f1b62",
+      "translated": 2548,
+      "untranslated": 0,
+      "fuzzy": 0
+    },
+    "zh": {
+      "file": "",
+      "size": 263290,
+      "sha1": "eb06fc3b9766aa482ea5fd95ef660fa450646996",
+      "translated": 2548,
+      "untranslated": 0,
+      "fuzzy": 0
+    },
+    "es": {
+      "file": "",
+      "size": 392908,
+      "sha1": "1acde52ef4d902eb93e721387d36435dfeabbfb7",
+      "translated": 2548,
+      "untranslated": 0,
+      "fuzzy": 0
+    },
+    "ar": {
+      "file": "",
+      "size": 320592,
+      "sha1": "338e78553fa111b8c08ab22dc505d84031904ecc",
+      "translated": 2377,
+      "untranslated": 171,
+      "fuzzy": 0
+    }
+  }
+}

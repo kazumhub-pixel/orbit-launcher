@@ -1,0 +1,10 @@
+{
+  "project": "authlib-injector",
+  "version": "1.2.8",
+  "binary": "https://authlib-injector.yushi.moe/artifact/56/authlib-injector-1.2.8.jar",
+  "sha256": "9c7f4343e6c82034958ffb48c14a2cb0c85928be7283103ce17da00c6d5a7b10",
+  "source": "https://github.com/yushijinhun/authlib-injector/tree/v1.2.8",
+  "sourceBundled": "program_info/authlib-injector-source-1.2.8.zip",
+  "license": "AGPLv3 with authlib-injector exception",
+  "unmodified": true
+}

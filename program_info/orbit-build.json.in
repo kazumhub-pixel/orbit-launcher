@@ -1,0 +1,5 @@
+{
+  "version": "@Orbit_VERSION@",
+  "repository": "@Orbit_REPOSITORY@",
+  "official": @Orbit_OFFICIAL_RELEASE_NUMBER@
+}

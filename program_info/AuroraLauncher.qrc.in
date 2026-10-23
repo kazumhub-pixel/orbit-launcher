@@ -1,0 +1,24 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>@Launcher_AppID@.svg</file>
+        <file alias="orbit/landscape.jpg">orbit-kingdom-hearts.jpg</file>
+        <file alias="orbit/i18n/mmc_ar.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/mmc_ar.qm</file>
+        <file alias="orbit/i18n/mmc_es.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/mmc_es.qm</file>
+        <file alias="orbit/i18n/mmc_pt_BR.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/mmc_pt_BR.qm</file>
+        <file alias="orbit/i18n/mmc_ru.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/mmc_ru.qm</file>
+        <file alias="orbit/i18n/mmc_zh.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/mmc_zh.qm</file>
+        <file alias="orbit/i18n/orbit_en_US.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/orbit_en_US.qm</file>
+        <file alias="orbit/i18n/orbit_pt_BR.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/orbit_pt_BR.qm</file>
+        <file alias="orbit/i18n/orbit_ru.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/orbit_ru.qm</file>
+        <file alias="orbit/i18n/orbit_zh.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/orbit_zh.qm</file>
+        <file alias="orbit/i18n/orbit_es.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/orbit_es.qm</file>
+        <file alias="orbit/i18n/orbit_ar.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/orbit_ar.qm</file>
+        <file alias="orbit/i18n/qtbase_ar.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/qtbase_ar.qm</file>
+        <file alias="orbit/i18n/qtbase_es.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/qtbase_es.qm</file>
+        <file alias="orbit/i18n/qtbase_pt_BR.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/qtbase_pt_BR.qm</file>
+        <file alias="orbit/i18n/qtbase_ru.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/qtbase_ru.qm</file>
+        <file alias="orbit/i18n/qtbase_zh.qm">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/qtbase_zh.qm</file>
+        <file alias="orbit/i18n/index_v2.json">@CMAKE_CURRENT_SOURCE_DIR@/orbit-i18n/index_v2.json</file>
+    </qresource>
+</RCC>

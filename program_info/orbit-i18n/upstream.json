@@ -1,0 +1,29 @@
+{
+  "prism": {
+    "repository": "https://github.com/PrismLauncher/Translations",
+    "commit": "53f7a59052a368c71c82316ae6c87cf501967dd8",
+    "license": "GPL-3.0",
+    "purpose": "Source catalogs for embedded base translations"
+  },
+  "qt": "https://github.com/qt/qttranslations/tree/v6.12.0/translations",
+  "compiledWith": "Qt lrelease 6.12.0 -nounfinished",
+  "date": "2026-10-23",
+  "bundledFiles": {
+    "mmc_ar.qm": "bfeba82e62b73eb77d2a2149bbc9ee3426c2f4273943825066d06be1c965a626",
+    "mmc_es.qm": "c89923a325818b51ac80a80112babfc23836ed4180714a933a92dff338a0a968",
+    "mmc_pt_BR.qm": "72322e1e6a2f6b56eb548af73c40f7b6cec76732f90e81f3857ad85504b28ea0",
+    "mmc_ru.qm": "9d4ca2f3ca90bf9dee1396d633151cc56b77819d514619af676f750de898e275",
+    "mmc_zh.qm": "203b2b703f287873215ec263e7b5098c9cb836b9ad84bd515e52c5f62c478207",
+    "orbit_ar.qm": "eda4069f568fb057f86279947e31b537876d9eefba2061f83261889fbc1a061b",
+    "orbit_en_US.qm": "c6cba3c653fed780f0f39265d3c301191fd69b3cb21c24222fa1b3a13f7ebd3c",
+    "orbit_es.qm": "c7a84b6e1f9a9c41884304b3d697eeac960d9632e3c2fd57f283824e4922b95e",
+    "orbit_pt_BR.qm": "07d44418a371d89d9408bda9de22cdb5a6379171beee72481b6951164268ef2a",
+    "orbit_ru.qm": "33119e9144f23cdf463baa1c61d60f58761380c62e44827ada2a430046fd7429",
+    "orbit_zh.qm": "1c569dab0789c0c3dfe83eef3716f0602f699cd89328d544b4750bdd115211df",
+    "qtbase_ar.qm": "e03fe68d83201543698fd7fe267dd5dfc5bfd195147e74ff2f19ac3491401263",
+    "qtbase_es.qm": "4ffda56ba3bb5414ab0482d1dde64a6f226e3488f6b7f3f11a150e01f53fa4c8",
+    "qtbase_pt_BR.qm": "3475d61604b938d459949801a906dbd34a8ca824ade94120015d676e208da859",
+    "qtbase_ru.qm": "17a46b0a22b74fa96c912b6e8a4b0fd36d25ce5fde7f06d2ed3a006baabcd557",
+    "qtbase_zh.qm": "0481a9b92a6f0578400e960a7d5ee70217a6a450eaf7f98b7d32b8dbd0d58616"
+  }
+}
