@@ -36,12 +36,19 @@ def run(arguments):
     result=subprocess.run([gh]+arguments,check=True,text=True,capture_output=True)
     return result.stdout
 run(['auth','status'])
-remote=json.loads(run(['api',f'repos/{repo}/contents/release.json']))
+if args.action=='draft':
+    info=json.loads(run(['api',f'repos/{repo}']))
+    target=json.loads(run(['api',f'repos/{repo}/commits/'+info['default_branch']]))['sha']
+else:
+    release=json.loads(run(['api',f'repos/{repo}/releases/tags/{tag}']))
+    target=release.get('target_commitish','')
+    if not re.fullmatch(r'[a-f0-9]{40}',target):raise SystemExit('Draft must pin an exact source commit')
+remote=json.loads(run(['api',f'repos/{repo}/contents/release.json?ref={target}']))
 import base64
 remote_config=json.loads(base64.b64decode(remote['content']))
 if remote_config!=config:raise SystemExit('Push and review the matching source commit before preparing a release')
 if args.action=='draft':
-    run(['release','create',tag,str(installer),str(source_archive),'--repo',repo,'--draft','--title',f'Orbit Launcher {version}',
+    run(['release','create',tag,str(installer),str(source_archive),'--repo',repo,'--target',target,'--draft','--title',f'Orbit Launcher {version}',
          '--notes-file',str(folder/'RELEASE-NOTES.md')])
     print('Draft created. Clients will not install this draft.')
 else:
